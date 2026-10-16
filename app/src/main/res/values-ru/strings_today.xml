@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="greet_morning">Доброе утро</string>
+    <string name="greet_morning_n">Доброе утро, %1$s</string>
+    <string name="greet_day">Добрый день</string>
+    <string name="greet_day_n">Добрый день, %1$s</string>
+    <string name="greet_evening">Добрый вечер</string>
+    <string name="greet_evening_n">Добрый вечер, %1$s</string>
+    <string name="greet_night">Доброй ночи</string>
+    <string name="greet_night_n">Доброй ночи, %1$s</string>
+
+    <string name="when_today">Сегодня</string>
+    <string name="when_tomorrow">Завтра</string>
+    <string name="when_yesterday">Вчера</string>
+
+    <string name="prism_week">Свет этой недели</string>
+    <string name="prism_reading">Ярче всех: %1$s. Тусклее всех: %2$s.</string>
+    <string name="prism_reading_one">Пока ярче всех: %1$s.</string>
+    <string name="prism_reading_none">Оцени пару сцен в вечернем разборе — и лучи загорятся.</string>
+    <string name="prism_empty">Твоя призма пока тёмная. Выбери роли, которые ты играешь: дома, на работе, с друзьями.</string>
+    <string name="prism_empty_action">Открыть библиотеку</string>
+    <string name="prism_empty_own">Или написать свою роль</string>
+
+    <string name="today_role">Роль дня</string>
+    <string name="today_who">Кто ведёт сегодня?</string>
+    <string name="today_who_sub">Выбери роль и одно намерение для неё</string>
+    <string name="today_intention">Намерение</string>
+    <string name="today_change">Сменить</string>
+    <string name="today_actions">Прямо сейчас</string>
+
+    <string name="home_threshold_sub">Войти в роль</string>
+    <string name="home_sos_sub">Когда накрывает злость</string>
+    <string name="home_quick">После сцены</string>
+    <string name="home_quick_sub">Оценить, пока свежо</string>
+    <string name="home_review_sub">Две минуты на итоги дня</string>
+    <string name="home_review_done">✓ Разбор готов</string>
+    <string name="home_act_day">День %1$d из %2$d</string>
+    <plurals name="home_streak">
+        <item quantity="one">%d день подряд с призмой</item>
+        <item quantity="few">%d дня подряд с призмой</item>
+        <item quantity="many">%d дней подряд с призмой</item>
+        <item quantity="other">%d дня подряд с призмой</item>
+    </plurals>
+
+    <string name="scene_score_title">Насколько близко к роли</string>
+    <string name="scene_score_far">Мимо</string>
+    <string name="scene_score_half">Наполовину</string>
+    <string name="scene_score_spot">В точку</string>
+    <string name="scene_energy_title">Как было по ощущениям</string>
+    <string name="scene_energy_m2">Без сил</string>
+    <string name="scene_energy_m1">Тяжело</string>
+    <string name="scene_energy_0">Ровно</string>
+    <string name="scene_energy_p1">Легко</string>
+    <string name="scene_energy_p2">На подъёме</string>
+    <string name="scene_shadow_q">Появлялась ли тень?</string>
+    <string name="scene_note_hint">Пара слов о сцене (по желанию)</string>
+
+    <string name="morning_lead">Одна роль ведёт день. Остальные тоже получат свои сцены, но этой достанется твоё внимание.</string>
+    <string name="morning_talk_today">Сегодня разговор</string>
+    <string name="morning_intention_hint">Что эта роль сделает сегодня?</string>
+    <string name="morning_ideas">Подсказки из роли</string>
+
+    <string name="review_pick">Какие роли ты сегодня {играл|играла}? Отметь те, что были важны.</string>
+    <string name="review_rate">Оценка не за идеальность, а за то, насколько близко ты {подошёл|подошла} к роли, какой ты её {задумал|задумала}.</string>
+    <string name="review_light">Свет сегодняшнего дня</string>
+    <string name="review_kind_high">Сегодня ты был{|а} совсем близко к тому, кем хочешь быть.</string>
+    <string name="review_kind_mid">Что-то получилось, что-то нет — так и выглядит практика.</string>
+    <string name="review_kind_low">Трудный день. Заметить это — уже первый шаг обратно в роль.</string>
+
+    <string name="quick_lead">Оцени сцену, пока она свежа: кем ты {хотел|хотела} быть и кто в итоге пришёл.</string>
+    <string name="quick_pick">В какой роли была эта сцена?</string>
+    <string name="quick_other_role">Другая роль</string>
+
+    <string name="journal_empty">Дневник заполняется, пока ты играешь свои роли: сюда попадут сцены, пороги, письма и разговоры.</string>
+    <string name="journal_balance">Баланс</string>
+    <string name="journal_balance_none">За этот срок сцен пока нет.</string>
+    <string name="journal_balance_least">Меньше всего света досталось сфере «%1$s».</string>
+    <string name="journal_energy">Что тебя заряжает</string>
+    <string name="journal_drains">Забирает силы</string>
+    <string name="journal_charges">Заряжает</string>
+    <string name="journal_shadows">Тени</string>
+    <string name="journal_shadows_none">За этот срок теней не было. Или они проскользнули незаметно.</string>
+    <string name="journal_facets">Грани</string>
+    <string name="journal_history">История</string>
+    <string name="journal_history_none">За этот срок здесь пока пусто.</string>
+    <string name="journal_delete_title">Удалить сцену?</string>
+    <string name="journal_delete_text">Она пропадёт из истории и из статистики.</string>
+    <string name="journal_noticed">Замечена</string>
+    <string name="journal_quick">Сразу после</string>
+</resources>
