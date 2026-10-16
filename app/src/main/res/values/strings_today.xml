@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="greet_morning">Good morning</string>
+    <string name="greet_morning_n">Good morning, %1$s</string>
+    <string name="greet_day">Good afternoon</string>
+    <string name="greet_day_n">Good afternoon, %1$s</string>
+    <string name="greet_evening">Good evening</string>
+    <string name="greet_evening_n">Good evening, %1$s</string>
+    <string name="greet_night">Good night</string>
+    <string name="greet_night_n">Good night, %1$s</string>
+
+    <string name="when_today">Today</string>
+    <string name="when_tomorrow">Tomorrow</string>
+    <string name="when_yesterday">Yesterday</string>
+
+    <string name="prism_week">This week\'s light</string>
+    <string name="prism_reading">Brightest: %1$s. Dimmest: %2$s.</string>
+    <string name="prism_reading_one">Brightest so far: %1$s.</string>
+    <string name="prism_reading_none">Rate a few scenes in the evening review and the rays will light up.</string>
+    <string name="prism_empty">Your prism is still dark. Pick the roles you play: at home, at work, with friends.</string>
+    <string name="prism_empty_action">Open the library</string>
+    <string name="prism_empty_own">Or write your own role</string>
+
+    <string name="today_role">Today\'s role</string>
+    <string name="today_who">Who leads today?</string>
+    <string name="today_who_sub">Choose a role and one intention for it</string>
+    <string name="today_intention">Intention</string>
+    <string name="today_change">Change</string>
+    <string name="today_actions">Right now</string>
+
+    <string name="home_threshold_sub">Step into a role</string>
+    <string name="home_sos_sub">When anger floods in</string>
+    <string name="home_quick">After a scene</string>
+    <string name="home_quick_sub">Rate it while it\'s fresh</string>
+    <string name="home_review_sub">Two minutes for the day</string>
+    <string name="home_review_done">✓ Reviewed</string>
+    <string name="home_act_day">Day %1$d of %2$d</string>
+    <plurals name="home_streak">
+        <item quantity="one">%d day in a row with the prism</item>
+        <item quantity="other">%d days in a row with the prism</item>
+    </plurals>
+
+    <string name="scene_score_title">How close to the role</string>
+    <string name="scene_score_far">Far from it</string>
+    <string name="scene_score_half">Halfway</string>
+    <string name="scene_score_spot">Spot on</string>
+    <string name="scene_energy_title">How it felt</string>
+    <string name="scene_energy_m2">Drained</string>
+    <string name="scene_energy_m1">Heavy</string>
+    <string name="scene_energy_0">Even</string>
+    <string name="scene_energy_p1">Light</string>
+    <string name="scene_energy_p2">Charged</string>
+    <string name="scene_shadow_q">Did a shadow show up?</string>
+    <string name="scene_note_hint">A line about the scene (optional)</string>
+
+    <string name="morning_lead">One role leads the day. The others still get their scenes, but this one gets your attention.</string>
+    <string name="morning_talk_today">Conversation today</string>
+    <string name="morning_intention_hint">What will this role do today?</string>
+    <string name="morning_ideas">Ideas from the role</string>
+
+    <string name="review_pick">Which roles did you play today? Pick the ones that mattered.</string>
+    <string name="review_rate">No grades for being perfect: just how close you came to the role as you wrote it.</string>
+    <string name="review_light">Today\'s light</string>
+    <string name="review_kind_high">Today you were very close to who you want to be.</string>
+    <string name="review_kind_mid">Some scenes landed, some didn\'t. That is what practice looks like.</string>
+    <string name="review_kind_low">A hard day. Noticing it is already the first step back into the role.</string>
+
+    <string name="quick_lead">Rate the scene while it\'s fresh: who you meant to be, and who showed up.</string>
+    <string name="quick_pick">Which role was this scene in?</string>
+    <string name="quick_other_role">Another role</string>
+
+    <string name="journal_empty">The journal fills up as you play your roles: scenes, thresholds, letters and talks will land here.</string>
+    <string name="journal_balance">Balance</string>
+    <string name="journal_balance_none">No scenes in this stretch yet.</string>
+    <string name="journal_balance_least">Least light went to: %1$s.</string>
+    <string name="journal_energy">What charges you</string>
+    <string name="journal_drains">Drains</string>
+    <string name="journal_charges">Charges</string>
+    <string name="journal_shadows">Shadows</string>
+    <string name="journal_shadows_none">No shadows in this stretch. Or they slipped by unnoticed.</string>
+    <string name="journal_facets">Facets</string>
+    <string name="journal_history">History</string>
+    <string name="journal_history_none">Nothing here for this stretch yet.</string>
+    <string name="journal_delete_title">Delete this scene?</string>
+    <string name="journal_delete_text">It will disappear from the history and the statistics.</string>
+    <string name="journal_noticed">Noticed</string>
+    <string name="journal_quick">Right after</string>
+</resources>
