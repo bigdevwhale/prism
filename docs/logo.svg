@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1C1C2E"/>
+      <stop offset="1" stop-color="#0D0E13"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F3EFE4" stop-opacity="0"/>
+      <stop offset="1" stop-color="#F3EFE4"/>
+    </linearGradient>
+  </defs>
+  <rect width="108" height="108" rx="24" fill="url(#bg)"/>
+  <path d="M18 61.5L45 52.5L45 54.3L18 63.3Z" fill="url(#beam)"/>
+  <path d="M56 52.5L82 38.2L82 42.8L56 53.4Z" fill="#FF6F6F"/>
+  <path d="M56 53.4L82 43.7L82 48.3L56 54.3Z" fill="#FFC754"/>
+  <path d="M56 54.3L82 49.2L82 53.8L56 55.2Z" fill="#6EDB9C"/>
+  <path d="M56 55.2L82 54.7L82 59.3L56 56.1Z" fill="#5DC0F2"/>
+  <path d="M56 56.1L82 60.2L82 64.8L56 57.0Z" fill="#9C7EFF"/>
+  <path d="M56 57.0L82 65.7L82 70.3L56 57.9Z" fill="#FF82C6"/>
+  <path d="M50 31L66 67H34Z" fill="#F3EFE4" fill-opacity="0.13" stroke="#F3EFE4" stroke-width="2.4" stroke-linejoin="round"/>
+</svg>
