@@ -1,6 +1,7 @@
 package app.prism.ui.practices
 
 import androidx.compose.animation.AnimatedContent
+import app.prism.ui.quoted
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.togetherWith
@@ -144,7 +145,7 @@ fun SosScreen(data: WData, go: Go) {
                             SosText(gs(R.string.sos_returned_title), gs(R.string.sos_returned_text, roleName(pick)))
                             if (pick.motto.isNotBlank()) {
                                 Spacer(Modifier.height(18.dp))
-                                Text("«${pick.motto}»", style = UType.Motto.copy(color = color, textAlign = TextAlign.Center))
+                                Text(quoted(pick.motto), style = UType.Motto.copy(color = color, textAlign = TextAlign.Center))
                             }
                             if (exitLine.isNotBlank()) {
                                 Spacer(Modifier.height(18.dp))

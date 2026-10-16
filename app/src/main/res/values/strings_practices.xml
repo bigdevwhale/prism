@@ -2,7 +2,7 @@
 <resources>
     <!-- Practices tab -->
     <string name="prx_title">Practices</string>
-    <string name="prx_sub">Small rituals that help you be who you meant to be.</string>
+    <string name="prx_sub">Small rituals that help you be who you want to be.</string>
     <string name="prx_daily">Every day</string>
     <string name="prx_hard">Hard moments</string>
     <string name="prx_deeper">Deeper</string>

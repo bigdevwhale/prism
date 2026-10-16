@@ -1,6 +1,7 @@
 package app.prism.ui.today
 
 import androidx.compose.foundation.background
+import app.prism.ui.quoted
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -173,7 +174,7 @@ fun PrismTab(data: WData, go: Go, onTab: (Tab) -> Unit) {
                     }
                     if (focus.motto.isNotBlank()) {
                         Spacer(Modifier.height(12.dp))
-                        Text("«${focus.motto}»", style = UType.Motto)
+                        Text(quoted(focus.motto), style = UType.Motto)
                     }
                     val intention = w.plan()?.intention.orEmpty()
                     if (intention.isNotBlank()) {

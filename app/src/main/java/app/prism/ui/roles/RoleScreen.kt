@@ -1,6 +1,7 @@
 package app.prism.ui.roles
 
 import androidx.compose.foundation.background
+import app.prism.ui.quoted
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -241,7 +242,7 @@ private fun Hero(role: Role, color: Color, data: WData) {
             }
             if (!role.shadow && role.motto.isNotBlank()) {
                 Spacer(Modifier.height(14.dp))
-                Text("«${role.motto}»", style = UType.Motto.copy(textAlign = androidx.compose.ui.text.style.TextAlign.Center))
+                Text(quoted(role.motto), style = UType.Motto.copy(textAlign = androidx.compose.ui.text.style.TextAlign.Center))
             }
         }
     }

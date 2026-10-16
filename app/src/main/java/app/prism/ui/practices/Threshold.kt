@@ -1,6 +1,7 @@
 package app.prism.ui.practices
 
 import androidx.compose.animation.AnimatedVisibility
+import app.prism.ui.quoted
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -47,6 +48,7 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.scale
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.drawscope.scale
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalHapticFeedback
@@ -217,12 +219,15 @@ private fun StepInPhase(role: Role, color: Color, progress: Float) {
     val anchor = lines(role.anchor)
     Box(Modifier.fillMaxWidth().height(120.dp), contentAlignment = Alignment.Center) {
         Canvas(Modifier.fillMaxSize()) {
+            // A soft beam: brightest in the middle, fading out on every side.
             val wdt = size.width * (0.04f + 0.5f * beam)
-            drawRect(
-                Brush.verticalGradient(listOf(color.copy(alpha = 0f), color.copy(alpha = 0.55f), color.copy(alpha = 0f))),
-                topLeft = Offset(size.width / 2 - wdt / 2, 0f),
-                size = androidx.compose.ui.geometry.Size(wdt, size.height),
-            )
+            scale(scaleX = 1f, scaleY = size.height / wdt) {
+                drawCircle(
+                    Brush.radialGradient(listOf(color.copy(alpha = 0.55f), color.copy(alpha = 0f)), center = center, radius = wdt / 2),
+                    radius = wdt / 2,
+                    center = center,
+                )
+            }
             val pulse = 0.5f + 0.5f * sin(beam * PI.toFloat() * 3)
             drawCircle(color.copy(alpha = 0.25f + 0.25f * pulse), radius = 18f * density, center = center)
         }
@@ -234,7 +239,7 @@ private fun StepInPhase(role: Role, color: Color, progress: Float) {
     Text(roleName(role), style = UType.Display.copy(textAlign = TextAlign.Center))
     if (role.motto.isNotBlank()) {
         Spacer(Modifier.height(10.dp))
-        Text("«${role.motto}»", style = UType.Motto.copy(color = color, textAlign = TextAlign.Center), modifier = Modifier.alpha(fade(progress, 0.1f)))
+        Text(quoted(role.motto), style = UType.Motto.copy(color = color, textAlign = TextAlign.Center), modifier = Modifier.alpha(fade(progress, 0.1f)))
     }
     Spacer(Modifier.height(18.dp))
     Column(Modifier.verticalScroll(rememberScrollState()), horizontalAlignment = Alignment.CenterHorizontally) {

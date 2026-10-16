@@ -141,4 +141,10 @@ fun roleName(r: Role?): String = r?.let { g(it.name) }.orEmpty()
 @Composable
 fun weekdayShort(i: Int): String = DayOfWeek.of(i + 1).getDisplayName(TextStyle.SHORT_STANDALONE, locale()).replaceFirstChar { it.titlecase(locale()) }
 
+/** A line in quotation marks of the language: «…» in Russian, “…” in English. */
+fun quote(text: String, locale: Locale): String = if (locale.language == "ru") "«$text»" else "“$text”"
+
+@Composable
+fun quoted(text: String): String = quote(text, locale())
+
 fun hhmm(minutes: Int): String = "%02d:%02d".format(minutes / 60, minutes % 60)

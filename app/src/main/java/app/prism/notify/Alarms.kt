@@ -18,6 +18,7 @@ import app.prism.R
 import app.prism.container
 import app.prism.data.Threshold
 import app.prism.domain.gendered
+import app.prism.ui.quote
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -125,7 +126,7 @@ object Alarms {
                 due.forEach { t ->
                     val role = dao.role(t.roleId) ?: return@forEach
                     val title = if (t.label.isNotBlank()) t.label else g(R.string.notif_threshold_title)
-                    val text = g(R.string.notif_threshold_text, role.name) + if (role.motto.isNotBlank()) "\n«${role.motto}»" else ""
+                    val text = g(R.string.notif_threshold_text, role.name) + if (role.motto.isNotBlank()) "\n" + quote(role.motto, context.resources.configuration.locales[0]) else ""
                     notify(context, (1000 + t.id % 100_000).toInt(), title, text, "threshold/${role.id}")
                 }
             }

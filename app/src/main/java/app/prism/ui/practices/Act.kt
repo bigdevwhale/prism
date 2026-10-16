@@ -1,6 +1,7 @@
 package app.prism.ui.practices
 
 import androidx.compose.foundation.background
+import app.prism.ui.quoted
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -187,7 +188,7 @@ private fun ActView(act: Act, data: WData, go: Go) {
                     )
                     Text(gs(R.string.act_done_of, doneCount, act.length), style = UType.Muted)
                 }
-                if (role != null && role.motto.isNotBlank()) Text("«${role.motto}»", style = UType.Motto.copy(color = color), modifier = Modifier.weight(1f))
+                if (role != null && role.motto.isNotBlank()) Text(quoted(role.motto), style = UType.Motto.copy(color = color), modifier = Modifier.weight(1f))
             }
             Spacer(Modifier.height(10.dp))
             Bar(doneCount.toFloat() / act.length, color = color)

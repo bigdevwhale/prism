@@ -11,6 +11,7 @@ import app.prism.MainActivity
 import app.prism.R
 import app.prism.container
 import app.prism.notify.Alarms
+import app.prism.ui.quote
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -48,7 +49,7 @@ class RoleWidget : AppWidgetProvider() {
                 when {
                     role == null -> context.getString(R.string.widget_none)
                     plan.intention.isNotBlank() -> plan.intention
-                    role.motto.isNotBlank() -> "«${role.motto}»"
+                    role.motto.isNotBlank() -> quote(role.motto, context.resources.configuration.locales[0])
                     else -> role.tagline
                 },
             )

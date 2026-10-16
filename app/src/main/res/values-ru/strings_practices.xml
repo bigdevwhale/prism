@@ -59,7 +59,7 @@
 
     <!-- The Mountain -->
     <string name="sos_stop_title">Стоп</string>
-    <string name="sos_stop_text">Не отвечай пока. Всё, что ты скажешь в ближайшую минуту, скажет за тебя злость. Закрой рот, отложи телефон, сделай шаг назад.</string>
+    <string name="sos_stop_text">Не отвечай пока. Всё, что ты скажешь в ближайшую минуту, скажет за тебя злость. Помолчи, отложи телефон, сделай шаг назад.</string>
     <string name="sos_breathe_title">Дыши</string>
     <string name="sos_breathe_text">Вдох на четыре счёта, задержка на семь, выдох на восемь. Три раза.</string>
     <string name="sos_in">Вдох</string>

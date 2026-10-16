@@ -1,6 +1,7 @@
 package app.prism.ui.roles
 
 import androidx.compose.foundation.background
+import app.prism.ui.quoted
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -218,7 +219,7 @@ private fun PreviewHero(name: String, tagline: String, eyebrow: String, color: C
             Text(tagline, style = UType.Sub.copy(textAlign = TextAlign.Center))
             if (motto.isNotBlank()) {
                 Spacer(Modifier.height(14.dp))
-                Text("«$motto»", style = UType.Motto.copy(textAlign = TextAlign.Center))
+                Text(quoted(motto), style = UType.Motto.copy(textAlign = TextAlign.Center))
             }
         }
     }

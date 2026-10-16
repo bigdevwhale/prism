@@ -1,6 +1,7 @@
 package app.prism.ui.components
 
 import androidx.compose.foundation.clickable
+import app.prism.ui.quoted
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -80,7 +81,7 @@ fun RoleRow(
         Column(Modifier.weight(1f)) {
             Text(roleName(role), style = UType.Strong, maxLines = 1, overflow = TextOverflow.Ellipsis)
             val sub = when {
-                role.motto.isNotBlank() -> "«${role.motto}»"
+                role.motto.isNotBlank() -> quoted(role.motto)
                 role.tagline.isNotBlank() -> role.tagline
                 showSphere -> sphereName(w.sphere(role.sphereId))
                 else -> ""

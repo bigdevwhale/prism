@@ -1,6 +1,7 @@
 package app.prism.ui.practices
 
 import androidx.activity.compose.BackHandler
+import app.prism.ui.quoted
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -127,7 +128,7 @@ fun RehearsalScreen(id: Long, roleId: Long, data: WData, go: Go) {
                     Spacer(Modifier.width(12.dp))
                     Column(Modifier.weight(1f)) {
                         Text(if (role != null) roleName(role) else gs(R.string.pick_role), style = UType.Strong)
-                        if (role != null && role.motto.isNotBlank()) Text("«${role.motto}»", style = UType.Muted)
+                        if (role != null && role.motto.isNotBlank()) Text(quoted(role.motto), style = UType.Muted)
                     }
                 }
             }
@@ -230,7 +231,7 @@ private fun Visualise(step: Int, r: Rehearsal, color: Color, motto: String, role
                     val extra = when (s) {
                         0 -> r.title
                         1 -> r.goal
-                        2 -> if (motto.isNotBlank()) "«$motto»" else ""
+                        2 -> if (motto.isNotBlank()) quoted(motto) else ""
                         3 -> lines(r.say).firstOrNull().orEmpty()
                         4 -> r.exit
                         else -> lines(r.say).drop(1).joinToString("\n")

@@ -17,6 +17,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.Stroke
@@ -68,7 +69,7 @@ fun PrismView(beams: List<Beam>, modifier: Modifier = Modifier, labels: Boolean 
     val measurer = rememberTextMeasurer()
     val progress = remember { Animatable(if (animate && motionOn()) 0f else 1f) }
     LaunchedEffect(Unit) { progress.animateTo(1f, tween(1400, easing = FastOutSlowInEasing)) }
-    val labelStyle = TextStyle(fontFamily = Inter, fontSize = 11.sp, color = c.muted)
+    val labelStyle = TextStyle(fontFamily = Inter, fontSize = 11.sp, color = c.muted, shadow = Shadow(Color.Black.copy(alpha = if (c.dark) 0.9f else 0.35f), blurRadius = 8f))
     Canvas(modifier) {
         val p = progress.value
         val h = size.height
@@ -124,7 +125,7 @@ fun PrismView(beams: List<Beam>, modifier: Modifier = Modifier, labels: Boolean 
                 drawPath(ray, Brush.horizontalGradient(listOf(b.color.copy(alpha = alpha * 0.55f), b.color.copy(alpha = alpha)), startX = exit.x, endX = w))
                 if (labels && b.label.isNotEmpty() && p > 0.9f && band > 11.sp.toPx()) {
                     val layout = measurer.measure(
-                        b.label, labelStyle.copy(color = c.ink.copy(alpha = 0.85f)), maxLines = 1, overflow = TextOverflow.Ellipsis,
+                        b.label, labelStyle.copy(color = if (c.dark) Color.White else c.ink), maxLines = 1, overflow = TextOverflow.Ellipsis,
                         constraints = Constraints(maxWidth = (w * 0.3f).toInt()),
                     )
                     drawText(layout, topLeft = Offset(w - layout.size.width - 6f, y + band / 2 - layout.size.height / 2))

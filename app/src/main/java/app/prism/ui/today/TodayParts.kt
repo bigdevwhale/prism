@@ -1,6 +1,7 @@
 package app.prism.ui.today
 
 import androidx.compose.foundation.Canvas
+import app.prism.ui.quoted
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -117,15 +118,15 @@ fun EnergyPicker(value: Int, onChange: (Int) -> Unit, color: Color) {
                         .background(if (on) color.copy(alpha = 0.16f) else U.c.surface2)
                         .border(1.dp, if (on) color.copy(alpha = 0.6f) else U.c.line, U.RSm)
                         .clickable { onChange(lv) }
-                        .padding(vertical = 8.dp),
+                        .padding(vertical = 8.dp, horizontal = 2.dp),
                     horizontalAlignment = Alignment.CenterHorizontally,
                 ) {
                     EnergyDot(lv, color = if (on) color else U.c.muted)
                     Spacer(Modifier.height(4.dp))
                     Text(
                         energyLabel(lv),
-                        style = UType.Small.copy(fontSize = 10.5.sp, color = if (on) color else U.c.faint),
-                        maxLines = 1,
+                        style = UType.Small.copy(fontSize = 10.5.sp, lineHeight = 12.sp, color = if (on) color else U.c.faint, textAlign = androidx.compose.ui.text.style.TextAlign.Center),
+                        maxLines = 2,
                         overflow = TextOverflow.Ellipsis,
                     )
                 }
@@ -165,7 +166,7 @@ fun SceneEditor(role: Role, w: World, draft: Draft, onChange: (Draft) -> Unit, m
         }
         if (role.motto.isNotBlank()) {
             Spacer(Modifier.height(8.dp))
-            Text("«${role.motto}»", style = UType.Motto.copy(fontSize = 15.sp, color = U.c.muted))
+            Text(quoted(role.motto), style = UType.Motto.copy(fontSize = 15.sp, color = U.c.muted))
         }
         Spacer(Modifier.height(14.dp))
         ScoreSlider(draft.score, { onChange(draft.copy(score = it)) }, color)

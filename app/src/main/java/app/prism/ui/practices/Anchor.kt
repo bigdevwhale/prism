@@ -1,6 +1,7 @@
 package app.prism.ui.practices
 
 import androidx.compose.foundation.background
+import app.prism.ui.quoted
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -128,7 +129,7 @@ fun AnchorScreen(roleId: Long, data: WData, go: Go) {
                     Spacer(Modifier.height(16.dp))
                     UCard(border = color.copy(alpha = 0.4f)) {
                         if (gesture.isNotBlank()) Text(gesture, style = UType.Strong)
-                        if (word.isNotBlank()) Text("«${word.trim()}»", style = UType.Motto.copy(color = color), modifier = Modifier.padding(top = 6.dp))
+                        if (word.isNotBlank()) Text(quoted(word.trim()), style = UType.Motto.copy(color = color), modifier = Modifier.padding(top = 6.dp))
                         if (memory.isNotBlank()) Text(memory, style = UType.Body, modifier = Modifier.padding(top = 8.dp))
                     }
                     Spacer(Modifier.height(26.dp))

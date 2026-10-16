@@ -1,6 +1,7 @@
 package app.prism.ui.practices
 
 import androidx.compose.foundation.layout.Arrangement
+import app.prism.ui.quoted
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -138,7 +139,7 @@ fun CouncilScreen(id: Long, data: WData, go: Go) {
                         Spacer(Modifier.width(12.dp))
                         Column(Modifier.weight(1f)) {
                             Text(gs(R.string.cnc_says, roleName(r)), style = UType.Strong)
-                            if (r.motto.isNotBlank()) Text("«${r.motto}»", style = UType.Muted.copy(color = color))
+                            if (r.motto.isNotBlank()) Text(quoted(r.motto), style = UType.Muted.copy(color = color))
                         }
                     }
                     Spacer(Modifier.height(10.dp))
