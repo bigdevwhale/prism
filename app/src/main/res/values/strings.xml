@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prism</string>
+
+    <string name="tab_prism">Prism</string>
+    <string name="tab_roles">Roles</string>
+    <string name="tab_practices">Practices</string>
+    <string name="tab_journal">Journal</string>
+
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="remove">Remove</string>
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="add">Add</string>
+    <string name="close">Close</string>
+    <string name="share">Share</string>
+    <string name="settings">Settings</string>
+
+    <string name="picker_no_roles">No roles yet. Add one on the Roles tab.</string>
+    <string name="picker_no_shadows">No shadows named yet.</string>
+    <string name="pick_role">Choose a role</string>
+    <string name="pick_shadow">Choose a shadow</string>
+
+    <string name="cut_sketch">Sketch</string>
+    <string name="cut_facet">Facet</string>
+    <string name="cut_polished">Polished</string>
+    <string name="cut_brilliant">Brilliant</string>
+
+    <string name="pr_morning">Morning fitting</string>
+    <string name="pr_morning_blurb">Pick the role that leads today and one intention for it.</string>
+    <string name="pr_threshold">Threshold</string>
+    <string name="pr_threshold_blurb">A minute between two roles: breathe out the old one, step into the next.</string>
+    <string name="pr_rehearsal">Rehearsal</string>
+    <string name="pr_rehearsal_blurb">Get ready for a hard conversation: the role, three lines to say, one to hold back.</string>
+    <string name="pr_sos">The Mountain</string>
+    <string name="pr_sos_blurb">When anger floods in: breathe, steady yourself, and step out of the scene with dignity.</string>
+    <string name="pr_review">Evening review</string>
+    <string name="pr_review_blurb">Which roles you played today, how close you came, and who showed up uninvited.</string>
+    <string name="pr_council">Council of roles</string>
+    <string name="pr_council_blurb">A hard choice? Let each role speak in turn, then decide from your core.</string>
+    <string name="pr_letter">Letter from a role</string>
+    <string name="pr_letter_blurb">Your best self in a role writes you a letter: what it sees, what it asks of you.</string>
+    <string name="pr_others">Through their eyes</string>
+    <string name="pr_others_blurb">How would the people around you describe you on your best day?</string>
+    <string name="pr_speech">Speech at eighty</string>
+    <string name="pr_speech_blurb">Your eightieth birthday. What do you want each person at the table to say about you?</string>
+    <string name="pr_shadow_talk">Meeting a shadow</string>
+    <string name="pr_shadow_talk_blurb">Talk to the part of you that takes over: what it wants, what it protects, what it needs.</string>
+    <string name="pr_model">Borrowed light</string>
+    <string name="pr_model_blurb">Who plays this role well? Borrow what they do.</string>
+    <string name="pr_anchor">Anchor</string>
+    <string name="pr_anchor_blurb">Tie a role to a gesture and a word, so you can switch it on in a second.</string>
+    <string name="pr_act">Act</string>
+    <string name="pr_act_blurb">Three weeks with one role: a small task every day, and the facet gets polished.</string>
+
+    <string-array name="act_generic_tasks">
+        <item>Before the first scene in this role, read its motto out loud</item>
+        <item>Do one thing from the role\'s list on purpose today</item>
+        <item>Notice one moment when you slipped out of the role, and replay it in your head the way the role would</item>
+        <item>Ask someone how this role of yours feels from their side</item>
+        <item>Hold the role\'s posture for one whole conversation</item>
+        <item>Do something this role would do that nobody asked for</item>
+        <item>Write one line about who you were in this role today</item>
+    </string-array>
+
+    <string name="channel_roles">Roles and thresholds</string>
+    <string name="channel_roles_desc">The morning choice, the evening review and scheduled thresholds</string>
+    <string name="notif_morning_title">Which role leads today?</string>
+    <string name="notif_morning_text">Take a minute to choose it and set one intention.</string>
+    <string name="notif_morning_talk">Today: %1$s. Choose who you want to be in it.</string>
+    <string name="notif_evening_title">How did today\'s scenes go?</string>
+    <string name="notif_evening_text">Two minutes: the roles you played and how close you came.</string>
+    <string name="notif_threshold_title">Threshold</string>
+    <string name="notif_threshold_text">Time to step into %1$s.</string>
+
+    <string name="widget_name">Today\'s role</string>
+    <string name="widget_desc">The role that leads today and its motto</string>
+    <string name="widget_none">Tap to choose today\'s role</string>
+
+    <plurals name="scenes">
+        <item quantity="one">%d scene</item>
+        <item quantity="other">%d scenes</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="roles">
+        <item quantity="one">%d role</item>
+        <item quantity="other">%d roles</item>
+    </plurals>
+</resources>

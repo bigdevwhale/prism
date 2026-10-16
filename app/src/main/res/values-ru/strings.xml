@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prism</string>
+
+    <string name="tab_prism">Призма</string>
+    <string name="tab_roles">Роли</string>
+    <string name="tab_practices">Практики</string>
+    <string name="tab_journal">Дневник</string>
+
+    <string name="back">Назад</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="remove">Убрать</string>
+    <string name="edit">Изменить</string>
+    <string name="done">Готово</string>
+    <string name="next">Дальше</string>
+    <string name="skip">Пропустить</string>
+    <string name="add">Добавить</string>
+    <string name="close">Закрыть</string>
+    <string name="share">Поделиться</string>
+    <string name="settings">Настройки</string>
+
+    <string name="picker_no_roles">Ролей пока нет. Добавь первую на вкладке «Роли».</string>
+    <string name="picker_no_shadows">Тени пока не названы.</string>
+    <string name="pick_role">Выбери роль</string>
+    <string name="pick_shadow">Выбери тень</string>
+
+    <string name="cut_sketch">Набросок</string>
+    <string name="cut_facet">Грань</string>
+    <string name="cut_polished">Огранка</string>
+    <string name="cut_brilliant">Бриллиант</string>
+
+    <string name="pr_morning">Утренняя примерка</string>
+    <string name="pr_morning_blurb">Выбери роль, которая ведёт сегодняшний день, и одно намерение для неё.</string>
+    <string name="pr_threshold">Порог</string>
+    <string name="pr_threshold_blurb">Минута между ролями: выдохнуть прежнюю и войти в следующую.</string>
+    <string name="pr_rehearsal">Репетиция</string>
+    <string name="pr_rehearsal_blurb">Подготовься к трудному разговору: роль, три фразы, которые скажешь, и одна, которую не скажешь.</string>
+    <string name="pr_sos">Гора</string>
+    <string name="pr_sos_blurb">Когда накрывает злость: дыхание, опора и достойный выход из сцены.</string>
+    <string name="pr_review">Вечерний разбор</string>
+    <string name="pr_review_blurb">Какие роли ты сегодня {играл|играла}, насколько удачно и кто пришёл без приглашения.</string>
+    <string name="pr_council">Совет ролей</string>
+    <string name="pr_council_blurb">Трудный выбор? Пусть каждая роль выскажется, а решение примет ядро.</string>
+    <string name="pr_letter">Письмо от роли</string>
+    <string name="pr_letter_blurb">Лучшая версия тебя в этой роли пишет тебе письмо: что она видит и о чём просит.</string>
+    <string name="pr_others">Взгляд со стороны</string>
+    <string name="pr_others_blurb">Как бы описали тебя близкие в твой лучший день?</string>
+    <string name="pr_speech">Речь на восьмидесятилетие</string>
+    <string name="pr_speech_blurb">Тебе восемьдесят. Что ты хочешь услышать о себе от каждого за столом?</string>
+    <string name="pr_shadow_talk">Встреча с тенью</string>
+    <string name="pr_shadow_talk_blurb">Поговори с той частью себя, которая берёт верх: чего она хочет, что охраняет, что ей нужно.</string>
+    <string name="pr_model">Чужой свет</string>
+    <string name="pr_model_blurb">Кто играет эту роль лучше всех? Возьми у него то, что работает.</string>
+    <string name="pr_anchor">Якорь</string>
+    <string name="pr_anchor_blurb">Привяжи роль к жесту и слову, чтобы включать её за секунду.</string>
+    <string name="pr_act">Акт</string>
+    <string name="pr_act_blurb">Три недели с одной ролью: каждый день маленькое задание — и грань становится ярче.</string>
+
+    <string-array name="act_generic_tasks">
+        <item>Перед первой сценой в этой роли прочитай вслух её девиз</item>
+        <item>Сделай сегодня нарочно одно дело из списка этой роли</item>
+        <item>Заметь момент, когда ты {вышел|вышла} из роли, и проиграй его в голове так, как сыграла бы она</item>
+        <item>Спроси кого-нибудь, каково ему с тобой в этой роли</item>
+        <item>Продержи осанку роли весь разговор от начала до конца</item>
+        <item>Сделай то, что сделала бы эта роль, хотя никто не просил</item>
+        <item>Запиши одну строчку о том, {каким|какой} ты {был|была} в этой роли сегодня</item>
+    </string-array>
+
+    <string name="channel_roles">Роли и пороги</string>
+    <string name="channel_roles_desc">Утренний выбор роли, вечерний разбор и пороги по расписанию</string>
+    <string name="notif_morning_title">Какая роль ведёт сегодня?</string>
+    <string name="notif_morning_text">Минута на выбор роли и одно намерение.</string>
+    <string name="notif_morning_talk">Сегодня: %1$s. Выбери, {каким|какой} ты хочешь там быть.</string>
+    <string name="notif_evening_title">Как прошли сегодняшние сцены?</string>
+    <string name="notif_evening_text">Две минуты: какие роли ты {сыграл|сыграла} и насколько близко к задуманному.</string>
+    <string name="notif_threshold_title">Порог</string>
+    <string name="notif_threshold_text">Пора войти в роль: %1$s.</string>
+
+    <string name="widget_name">Роль дня</string>
+    <string name="widget_desc">Роль, которая ведёт сегодня, и её девиз</string>
+    <string name="widget_none">Нажми, чтобы выбрать роль дня</string>
+
+    <plurals name="scenes">
+        <item quantity="one">%d сцена</item>
+        <item quantity="few">%d сцены</item>
+        <item quantity="many">%d сцен</item>
+        <item quantity="other">%d сцены</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
+    <plurals name="roles">
+        <item quantity="one">%d роль</item>
+        <item quantity="few">%d роли</item>
+        <item quantity="many">%d ролей</item>
+        <item quantity="other">%d роли</item>
+    </plurals>
+</resources>
