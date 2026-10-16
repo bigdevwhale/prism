@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Practices tab -->
+    <string name="prx_title">Практики</string>
+    <string name="prx_sub">Маленькие ритуалы, которые помогают быть тем, кем ты хочешь быть.</string>
+    <string name="prx_daily">Каждый день</string>
+    <string name="prx_hard">Трудные минуты</string>
+    <string name="prx_deeper">Глубже</string>
+    <string name="prx_running_acts">Идущие акты</string>
+    <string name="prx_open_rehearsals">Впереди разговоры</string>
+    <string name="prx_act_day">День %1$d из %2$d</string>
+
+    <!-- Threshold -->
+    <string name="thr_leave_title">Оставь прошлую сцену позади</string>
+    <string name="thr_in">Вдох</string>
+    <string name="thr_out">Выдох</string>
+    <string-array name="thr_leave_cues">
+        <item>Опусти плечи.</item>
+        <item>Выдыхай дольше, чем вдыхаешь.</item>
+        <item>Всё, что было до этого, остаётся за дверью.</item>
+        <item>Тот разговор не обязательно заканчивать прямо сейчас.</item>
+    </string-array>
+    <string name="thr_pause_title">Пауза</string>
+    <string name="thr_pause_text">Несколько секунд от тебя никому ничего не нужно. Просто побудь в тишине.</string>
+    <string name="thr_step_title">Входи</string>
+    <string name="thr_anchor">Якорь: %1$s</string>
+    <string name="thr_skip">Сразу к концу</string>
+    <string name="thr_go">Вперёд</string>
+
+    <string name="thr_schedule_title">Пороги по расписанию</string>
+    <string name="thr_schedule_sub">Напоминание в ту минуту, когда одна роль заканчивается и начинается другая: дорога домой, звонок, детский сад.</string>
+    <string name="thr_schedule_none">Пока нет</string>
+    <string name="thr_schedule_empty">Порогов пока нет. Отметь моменты дня, когда ты переключаешься между ролями.</string>
+    <plurals name="thr_scheduled">
+        <item quantity="one">Включён %d порог</item>
+        <item quantity="few">Включено %d порога</item>
+        <item quantity="many">Включено %d порогов</item>
+        <item quantity="other">Включено %d порога</item>
+    </plurals>
+    <string name="thr_add">Добавить порог</string>
+    <string name="thr_new">Новый порог</string>
+    <string name="thr_edit">Порог</string>
+    <string name="thr_role">В какую роль</string>
+    <string name="thr_time">Во сколько</string>
+    <string name="thr_days">По каким дням</string>
+    <string name="thr_label">Момент</string>
+    <string-array name="thr_label_suggestions">
+        <item>Дорога домой</item>
+        <item>Перед работой</item>
+        <item>Забрать детей</item>
+        <item>Перед созвоном</item>
+        <item>В гости к родителям</item>
+        <item>Встреча с друзьями</item>
+        <item>Перед сном</item>
+    </string-array>
+    <string name="thr_every_day">Каждый день</string>
+    <string name="thr_weekdays">По будням</string>
+    <string name="thr_weekends">По выходным</string>
+
+    <!-- The Mountain -->
+    <string name="sos_stop_title">Стоп</string>
+    <string name="sos_stop_text">Не отвечай пока. Всё, что ты скажешь в ближайшую минуту, скажет за тебя злость. Закрой рот, отложи телефон, сделай шаг назад.</string>
+    <string name="sos_breathe_title">Дыши</string>
+    <string name="sos_breathe_text">Вдох на четыре счёта, задержка на семь, выдох на восемь. Три раза.</string>
+    <string name="sos_in">Вдох</string>
+    <string name="sos_hold">Задержка</string>
+    <string name="sos_out">Выдох</string>
+    <string name="sos_cycle">Цикл %1$d из 3</string>
+    <string name="sos_ground_title">Почувствуй опору</string>
+    <string name="sos_ground_text">Ты — гора. Над ней проходит непогода, а гора остаётся.</string>
+    <string-array name="sos_ground_steps">
+        <item>Упрись обеими ступнями в пол и почувствуй, как он тебя держит.</item>
+        <item>Назови три вещи, которые видишь прямо сейчас.</item>
+        <item>Разожми челюсти и раскрой ладони.</item>
+        <item>Опусти плечи подальше от ушей.</item>
+    </string-array>
+    <string name="sos_exit_title">Выйди из сцены достойно</string>
+    <string name="sos_exit_text">Выйти из сцены — не значит проиграть. Выбери фразу, с которой уйдёшь.</string>
+    <string-array name="sos_exit_lines">
+        <item>Мне нужно десять минут. Я вернусь, и мы договорим.</item>
+        <item>Для меня это важно, поэтому я хочу говорить спокойно. Дай мне минуту.</item>
+        <item>Я сейчас слишком {злой|злая}, чтобы сказать что-то толковое. Давай вернёмся к этому через час.</item>
+        <item>Я тебя слышу. Мне нужно подумать, прежде чем ответить.</item>
+        <item>Давай пока остановимся. Я ухожу не от тебя, а от крика.</item>
+    </string-array>
+    <string name="sos_return_title">{Каким|Какой} ты вернёшься?</string>
+    <string name="sos_return_text">Когда волна схлынет, выбери роль, в которой вернёшься в сцену.</string>
+    <string name="sos_returned_title">Гора устояла</string>
+    <string name="sos_returned_text">Ты возвращаешься в роли «%1$s».</string>
+    <string name="sos_your_line">Твоя фраза</string>
+    <string name="sos_threshold">Порог: %1$s</string>
+
+    <!-- Rehearsal -->
+    <string name="reh_intro">Трудный разговор идёт легче, если однажды ты уже {прошёл|прошла} его — в той роли, в которой хочешь быть.</string>
+    <string name="reh_untitled">Разговор</string>
+    <string name="reh_title">О чём разговор</string>
+    <string name="reh_title_hint">Попросить у начальника прибавку</string>
+    <string name="reh_role">Роль</string>
+    <string name="reh_when">Когда</string>
+    <string name="reh_when_none">Не выбрано</string>
+    <string name="reh_goal">Чего я хочу от разговора</string>
+    <string name="reh_goal_hint">Договориться о сроках так, чтобы никто не ушёл в оборону</string>
+    <string name="reh_say">Три фразы, которые я скажу</string>
+    <string name="reh_say_hint">По одной на строку</string>
+    <string name="reh_not_say">Одна фраза, которую я не скажу</string>
+    <string name="reh_not_say_hint">Тот колкий ответ, после которого всё пойдёт не так</string>
+    <string name="reh_exit">Если пойдёт плохо, я выйду из разговора так</string>
+    <string name="reh_exit_hint">Давай сделаем перерыв и вернёмся к этому завтра.</string>
+    <string name="reh_visualise">Прожить заранее</string>
+    <string name="reh_after">После разговора</string>
+    <string name="reh_outcome">Как всё прошло?</string>
+    <string name="reh_outcome_hint">Что случилось, что сработало, что сделаешь иначе</string>
+    <string name="reh_score">Насколько получилось быть в роли: %1$d</string>
+    <string name="reh_mark_done">Разговор состоялся</string>
+    <string name="reh_delete_title">Удалить репетицию?</string>
+    <string name="reh_delete_text">Все записи к этому разговору пропадут.</string>
+
+    <string name="vis_1_t">Место</string>
+    <string name="vis_1">Закрой глаза. Где это происходит? Представь комнату, свет, где ты сидишь или стоишь.</string>
+    <string name="vis_2_t">Человек</string>
+    <string name="vis_2">Представь его перед собой: лицо, сегодняшнее настроение. Вспомни, чего ты хочешь от разговора.</string>
+    <string name="vis_3_t">Тело</string>
+    <string name="vis_3">Прежде чем заговорить, войди в роль «%1$s». Выпрямись, замедли дыхание, расслабь лицо.</string>
+    <string name="vis_4_t">Первая фраза</string>
+    <string name="vis_4">Услышь, как говоришь её спокойно, без спешки.</string>
+    <string name="vis_5_t">Становится трудно</string>
+    <string name="vis_5">Тебе возражают или говорят что-то обидное. Почувствуй это и останься в роли. Если нужно, выйди из разговора своей фразой.</string>
+    <string name="vis_6_t">Всё заканчивается хорошо</string>
+    <string name="vis_6">Представь финал: ты {сказал|сказала} то, что важно, и {остался|осталась} собой. Заметь, каково это.</string>
+
+    <!-- Council -->
+    <string name="cnc_intro">Каждая роль видит вопрос со своей стороны. Выслушай всех, а решение пусть примет ядро.</string>
+    <string name="cnc_question">Вопрос</string>
+    <string name="cnc_question_hint">Соглашаться ли на работу в другом городе?</string>
+    <string name="cnc_pick">Кто входит в совет (выбери от %1$d до %2$d)</string>
+    <string name="cnc_says">Что говорит %1$s?</string>
+    <string name="cnc_says_hint">Говори её голосом</string>
+    <string name="cnc_core_q">А что скажет ядро?</string>
+    <string name="cnc_core">Ядро</string>
+    <string name="cnc_core_hint">Какие ценности здесь важнее всего и что они подсказывают?</string>
+    <string name="cnc_decision">Решение</string>
+    <string name="cnc_decision_hint">Что я решаю и какой первый шаг</string>
+
+    <!-- Written practices -->
+    <string name="note_letter_title">От роли «%1$s»</string>
+    <string name="note_letter_prompts">Пусть роль ответит</string>
+    <string-array name="letter_prompts">
+        <item>Что ты видишь во мне такого, о чём я забываю?</item>
+        <item>Чем я тебя недавно {порадовал|порадовала}?</item>
+        <item>Где я заставил{|а} тебя замолчать?</item>
+        <item>О чём ты просишь меня на этой неделе?</item>
+    </string-array>
+    <string name="note_letter_hint">Привет. Это пишет «%1$s»…</string>
+    <string name="note_others_q">В мой лучший день они сказали бы…</string>
+    <string name="note_speech_q">На моём восьмидесятилетии я хочу услышать…</string>
+    <string name="note_who">Кто</string>
+    <string name="note_others_hint">Как этот человек описал бы тебя своими словами</string>
+    <string name="note_speech_hint">Что ты надеешься услышать в его тосте</string>
+    <string-array name="note_who_suggestions">
+        <item>Партнёр</item>
+        <item>Ребёнок</item>
+        <item>Мама</item>
+        <item>Папа</item>
+        <item>Лучший друг</item>
+        <item>Коллега</item>
+        <item>Брат или сестра</item>
+        <item>Сосед</item>
+    </string-array>
+    <string name="note_add_person">Добавить человека</string>
+    <string name="note_shadow">Тень</string>
+    <string name="note_shadow_name">Или дай ей имя</string>
+    <string name="note_shadow_name_hint">Прокурор</string>
+    <string-array name="shadow_talk_questions">
+        <item>Чего ты хочешь, когда берёшь верх?</item>
+        <item>Чего ты боишься, если отступишь?</item>
+        <item>Что ты охраняешь?</item>
+        <item>Что тебе от меня нужно?</item>
+        <item>О чём мы можем договориться?</item>
+    </string-array>
+    <string name="model_who">Кто хорошо играет эту роль</string>
+    <string name="model_who_hint">Бабушка, тренер, герой книги</string>
+    <string name="model_does">Что он делает</string>
+    <string name="model_does_hint">Как говорит, что замечает, чего никогда не делает</string>
+    <string name="model_borrow">Что взять себе</string>
+    <string name="model_borrow_hint">Одна привычка, которую попробуешь на этой неделе</string>
+    <string name="model_save">Сделать образцом для роли «%1$s»</string>
+    <string name="model_saved">Сохранено как образец этой роли.</string>
+    <string name="note_delete_title">Удалить запись?</string>
+    <string name="note_delete_text">Всё, что ты {написал|написала}, пропадёт.</string>
+
+    <!-- Anchor -->
+    <string name="anc_gesture_t">Жест</string>
+    <string name="anc_gesture">Что-то маленькое, что можно сделать где угодно и незаметно для других.</string>
+    <string name="anc_gesture_hint">Или опиши свой</string>
+    <string-array name="anchor_gestures">
+        <item>Соединить большой и указательный пальцы</item>
+        <item>Ладонь на грудь</item>
+        <item>Расправить плечи</item>
+        <item>Коснуться запястья</item>
+        <item>Положить ладони на стол</item>
+    </string-array>
+    <string name="anc_word_t">Слово</string>
+    <string name="anc_word">Слово или короткая фраза, которую ты говоришь себе вместе с жестом.</string>
+    <string name="anc_word_hint">Спокойно</string>
+    <string name="anc_memory_t">Воспоминание</string>
+    <string name="anc_memory">Момент, когда роль «%1$s» удалась тебе лучше всего. Где ты {был|была}, что делал{|а}, что чувствовал{|а}?</string>
+    <string name="anc_memory_hint">Тот вечер, когда я {сохранил|сохранила} спокойствие, хотя…</string>
+    <string name="anc_charge_t">Заряди якорь</string>
+    <string name="anc_charge">Сделай жест, скажи слово и проживи воспоминание, пока держишь круг десять секунд.</string>
+    <string name="anc_hold">Держи</string>
+    <string name="anc_charged">Заряжен</string>
+
+    <!-- Act -->
+    <string name="act_new">Новый акт</string>
+    <string name="act_length">Длительность</string>
+    <string name="act_tasks">Задания</string>
+    <string name="act_tasks_hint">По одному на строку. Они идут по кругу, пока длится акт.</string>
+    <string name="act_start">Начать акт</string>
+    <string name="act_already">У этой роли уже идёт акт.</string>
+    <string name="act_open_running">Открыть его</string>
+    <string name="act_today">Сегодня</string>
+    <string name="act_days">Дни</string>
+    <string name="act_days_hint">Если забыл{|а} отметить день, нажми на него.</string>
+    <string name="act_done_of">Сделано: %1$d из %2$d</string>
+    <string name="act_ended">Завершён досрочно</string>
+    <string name="act_over">Акт окончен</string>
+    <string name="act_end">Завершить</string>
+    <string name="act_end_title">Завершить акт сейчас?</string>
+    <string name="act_end_text">Сделанные дни останутся засчитанными.</string>
+    <string name="act_delete_title">Удалить акт?</string>
+    <string name="act_delete_text">Его дни больше не будут засчитываться роли.</string>
+    <string name="act_complete_t">Акт пройден</string>
+    <string name="act_complete">«%1$s»: сделано %2$d из %3$d. Грань стала ярче.</string>
+</resources>

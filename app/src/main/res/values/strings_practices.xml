@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Practices tab -->
+    <string name="prx_title">Practices</string>
+    <string name="prx_sub">Small rituals that help you be who you meant to be.</string>
+    <string name="prx_daily">Every day</string>
+    <string name="prx_hard">Hard moments</string>
+    <string name="prx_deeper">Deeper</string>
+    <string name="prx_running_acts">Acts in progress</string>
+    <string name="prx_open_rehearsals">Rehearsals ahead</string>
+    <string name="prx_act_day">Day %1$d of %2$d</string>
+
+    <!-- Threshold -->
+    <string name="thr_leave_title">Leave the last scene behind</string>
+    <string name="thr_in">In</string>
+    <string name="thr_out">Out</string>
+    <string-array name="thr_leave_cues">
+        <item>Let your shoulders drop.</item>
+        <item>Breathe out longer than you breathe in.</item>
+        <item>Whatever happened before stays on the other side of this door.</item>
+        <item>You don\'t have to finish that conversation now.</item>
+    </string-array>
+    <string name="thr_pause_title">Pause</string>
+    <string name="thr_pause_text">Nobody needs anything from you for a few seconds. Just be still.</string>
+    <string name="thr_step_title">Step in</string>
+    <string name="thr_anchor">Anchor: %1$s</string>
+    <string name="thr_skip">Skip to the end</string>
+    <string name="thr_go">Go</string>
+
+    <string name="thr_schedule_title">Scheduled thresholds</string>
+    <string name="thr_schedule_sub">A reminder at the moment one role ends and another begins: coming home, before a call, picking up the kids.</string>
+    <string name="thr_schedule_none">None yet</string>
+    <string name="thr_schedule_empty">No thresholds scheduled. Pick the moments of the day when you switch roles.</string>
+    <plurals name="thr_scheduled">
+        <item quantity="one">%d threshold on</item>
+        <item quantity="other">%d thresholds on</item>
+    </plurals>
+    <string name="thr_add">Add a threshold</string>
+    <string name="thr_new">New threshold</string>
+    <string name="thr_edit">Threshold</string>
+    <string name="thr_role">Step into</string>
+    <string name="thr_time">At</string>
+    <string name="thr_days">On</string>
+    <string name="thr_label">Moment</string>
+    <string-array name="thr_label_suggestions">
+        <item>Coming home</item>
+        <item>Before work</item>
+        <item>Picking up the kids</item>
+        <item>Before the team call</item>
+        <item>Visiting my parents</item>
+        <item>Meeting friends</item>
+        <item>Before sleep</item>
+    </string-array>
+    <string name="thr_every_day">Every day</string>
+    <string name="thr_weekdays">Weekdays</string>
+    <string name="thr_weekends">Weekends</string>
+
+    <!-- The Mountain -->
+    <string name="sos_stop_title">Stop</string>
+    <string name="sos_stop_text">Don\'t answer yet. Whatever you say in the next minute, anger says for you. Close your mouth, put the phone down, take a step back.</string>
+    <string name="sos_breathe_title">Breathe</string>
+    <string name="sos_breathe_text">Four counts in, hold for seven, eight counts out. Three times.</string>
+    <string name="sos_in">In</string>
+    <string name="sos_hold">Hold</string>
+    <string name="sos_out">Out</string>
+    <string name="sos_cycle">Breath %1$d of 3</string>
+    <string name="sos_ground_title">Feel the ground</string>
+    <string name="sos_ground_text">You are a mountain. Weather passes over it; the mountain stays.</string>
+    <string-array name="sos_ground_steps">
+        <item>Press both feet into the floor and feel its weight hold you.</item>
+        <item>Name three things you can see right now.</item>
+        <item>Unclench your jaw and let your hands open.</item>
+        <item>Let your shoulders drop away from your ears.</item>
+    </string-array>
+    <string name="sos_exit_title">Step out with dignity</string>
+    <string name="sos_exit_text">Leaving a scene is not losing it. Pick a line to step out with.</string>
+    <string-array name="sos_exit_lines">
+        <item>I need ten minutes. I\'ll come back and we\'ll finish this.</item>
+        <item>This matters to me, so I want to talk about it calmly. Give me a moment.</item>
+        <item>I\'m too angry to say anything useful right now. Let\'s pick this up in an hour.</item>
+        <item>I hear you. I need to think before I answer.</item>
+        <item>Let\'s stop here for now. I\'m not walking away from you, just from the shouting.</item>
+    </string-array>
+    <string name="sos_return_title">Who do you come back as?</string>
+    <string name="sos_return_text">When the wave passes, pick the role you return to the scene in.</string>
+    <string name="sos_returned_title">The mountain stood</string>
+    <string name="sos_returned_text">You come back as %1$s.</string>
+    <string name="sos_your_line">Your line</string>
+    <string name="sos_threshold">Step into %1$s</string>
+
+    <!-- Rehearsal -->
+    <string name="reh_intro">A hard conversation goes better when you have already walked through it once, in the role you want to be in.</string>
+    <string name="reh_untitled">A conversation</string>
+    <string name="reh_title">The conversation</string>
+    <string name="reh_title_hint">Asking my boss for a raise</string>
+    <string name="reh_role">Role</string>
+    <string name="reh_when">When</string>
+    <string name="reh_when_none">Not set</string>
+    <string name="reh_goal">What I want from it</string>
+    <string name="reh_goal_hint">For us to agree on a date, without either of us getting defensive</string>
+    <string name="reh_say">Three lines I will say</string>
+    <string name="reh_say_hint">One per line</string>
+    <string name="reh_not_say">One thing I won\'t say</string>
+    <string name="reh_not_say_hint">The sharp remark that would end it badly</string>
+    <string name="reh_exit">If it goes badly, I step out with</string>
+    <string name="reh_exit_hint">Let\'s take a break and come back to this tomorrow.</string>
+    <string name="reh_visualise">Walk through it</string>
+    <string name="reh_after">After the conversation</string>
+    <string name="reh_outcome">How did it go?</string>
+    <string name="reh_outcome_hint">What happened, what worked, what you\'d do differently</string>
+    <string name="reh_score">How close to the role: %1$d</string>
+    <string name="reh_mark_done">It\'s done</string>
+    <string name="reh_delete_title">Delete this rehearsal?</string>
+    <string name="reh_delete_text">The notes for this conversation will be gone.</string>
+
+    <string name="vis_1_t">The place</string>
+    <string name="vis_1">Close your eyes. Where does it happen? See the room, the light, where you sit or stand.</string>
+    <string name="vis_2_t">The person</string>
+    <string name="vis_2">Picture them in front of you. Their face, their mood today. Remember what you want from this.</string>
+    <string name="vis_3_t">Your body</string>
+    <string name="vis_3">Before you speak, become %1$s. Straighten up, slow your breath, soften your face.</string>
+    <string name="vis_4_t">Your first line</string>
+    <string name="vis_4">Hear yourself say it calmly, at an easy pace.</string>
+    <string name="vis_5_t">It gets hard</string>
+    <string name="vis_5">They push back, or say something that stings. Feel it, and stay in the role. If you need to, step out with your line.</string>
+    <string name="vis_6_t">It ends well</string>
+    <string name="vis_6">Picture the end: you said what mattered and stayed yourself. Notice how that feels.</string>
+
+    <!-- Council -->
+    <string name="cnc_intro">Each role sees the question from its own corner. Hear them all, then let your core decide.</string>
+    <string name="cnc_question">The question</string>
+    <string name="cnc_question_hint">Do I take the job in another city?</string>
+    <string name="cnc_pick">Who sits on the council (pick %1$d to %2$d)</string>
+    <string name="cnc_says">What does %1$s say?</string>
+    <string name="cnc_says_hint">Speak in its voice</string>
+    <string name="cnc_core_q">And the core?</string>
+    <string name="cnc_core">The core</string>
+    <string name="cnc_core_hint">Which of your values matter most here, and what do they say?</string>
+    <string name="cnc_decision">Decision</string>
+    <string name="cnc_decision_hint">What I decide, and the first step</string>
+
+    <!-- Written practices -->
+    <string name="note_letter_title">From %1$s</string>
+    <string name="note_letter_prompts">Let the role answer</string>
+    <string-array name="letter_prompts">
+        <item>What do you see in me that I forget?</item>
+        <item>What did I do lately that you were proud of?</item>
+        <item>Where did I let you go quiet?</item>
+        <item>What do you ask of me this week?</item>
+    </string-array>
+    <string name="note_letter_hint">Dear me, this is %1$s writing…</string>
+    <string name="note_others_q">On my best day, they would say…</string>
+    <string name="note_speech_q">At my eightieth birthday, I want to hear…</string>
+    <string name="note_who">Who</string>
+    <string name="note_others_hint">How they would describe you, in their words</string>
+    <string name="note_speech_hint">What you hope they say in their toast</string>
+    <string-array name="note_who_suggestions">
+        <item>Partner</item>
+        <item>Child</item>
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Best friend</item>
+        <item>Colleague</item>
+        <item>Brother or sister</item>
+        <item>Neighbour</item>
+    </string-array>
+    <string name="note_add_person">Add a person</string>
+    <string name="note_shadow">Shadow</string>
+    <string name="note_shadow_name">Or give it a name</string>
+    <string name="note_shadow_name_hint">The Prosecutor</string>
+    <string-array name="shadow_talk_questions">
+        <item>What do you want when you take over?</item>
+        <item>What are you afraid would happen if you stepped back?</item>
+        <item>What are you protecting?</item>
+        <item>What do you need from me?</item>
+        <item>What can we agree on?</item>
+    </string-array>
+    <string name="model_who">Who plays this role well</string>
+    <string name="model_who_hint">My grandmother, a coach, a character from a book</string>
+    <string name="model_does">What they do</string>
+    <string name="model_does_hint">How they speak, what they notice, what they never do</string>
+    <string name="model_borrow">One thing to borrow</string>
+    <string name="model_borrow_hint">The one habit you will try this week</string>
+    <string name="model_save">Save as the model for %1$s</string>
+    <string name="model_saved">Saved as this role\'s model.</string>
+    <string name="note_delete_title">Delete this note?</string>
+    <string name="note_delete_text">What you wrote will be gone.</string>
+
+    <!-- Anchor -->
+    <string name="anc_gesture_t">A gesture</string>
+    <string name="anc_gesture">Something small you can do anywhere without anyone noticing.</string>
+    <string name="anc_gesture_hint">Or describe your own</string>
+    <string-array name="anchor_gestures">
+        <item>Thumb to index finger</item>
+        <item>Hand on the chest</item>
+        <item>Straighten the shoulders</item>
+        <item>Touch the wrist</item>
+        <item>Palms flat on the table</item>
+    </string-array>
+    <string name="anc_word_t">A word</string>
+    <string name="anc_word">A word or a short line you say to yourself with the gesture.</string>
+    <string name="anc_word_hint">Steady</string>
+    <string name="anc_memory_t">A memory</string>
+    <string name="anc_memory">A moment when you were %1$s at your best. Where were you, what did you do, how did it feel?</string>
+    <string name="anc_memory_hint">The evening I stayed calm when…</string>
+    <string name="anc_charge_t">Charge it</string>
+    <string name="anc_charge">Make the gesture, say the word, and relive the memory while you hold the circle for ten seconds.</string>
+    <string name="anc_hold">Hold</string>
+    <string name="anc_charged">Charged</string>
+
+    <!-- Act -->
+    <string name="act_new">New act</string>
+    <string name="act_length">Length</string>
+    <string name="act_tasks">Tasks</string>
+    <string name="act_tasks_hint">One per line. They repeat in order through the act.</string>
+    <string name="act_start">Start the act</string>
+    <string name="act_already">This role already has an act in progress.</string>
+    <string name="act_open_running">Open it</string>
+    <string name="act_today">Today</string>
+    <string name="act_days">Days</string>
+    <string name="act_days_hint">Tap a past day to mark it if you forgot.</string>
+    <string name="act_done_of">Done: %1$d of %2$d</string>
+    <string name="act_ended">Ended early</string>
+    <string name="act_over">The act is over</string>
+    <string name="act_end">End now</string>
+    <string name="act_end_title">End the act now?</string>
+    <string name="act_end_text">The days you did stay counted.</string>
+    <string name="act_delete_title">Delete this act?</string>
+    <string name="act_delete_text">Its days will no longer count toward the role.</string>
+    <string name="act_complete_t">Act complete</string>
+    <string name="act_complete">%1$s, done: %2$d of %3$d. The facet shines brighter.</string>
+</resources>
