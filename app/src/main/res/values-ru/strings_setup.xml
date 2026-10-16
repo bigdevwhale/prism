@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Onboarding -->
+    <string name="ob_welcome_title">Один свет, много цветов</string>
+    <string name="ob_welcome_text">Твои ценности — это свет. Роли — цвета, на которые он распадается: дома, на работе, с друзьями, в гневе.</string>
+    <string name="ob_welcome_more">Prism помогает описать, {каким|какой} ты хочешь быть в каждой из них, и чаще таким быть.</string>
+    <string name="ob_start">Начать</string>
+    <string name="ob_name_title">Как тебя зовут?</string>
+    <string name="ob_name_text">Только для приветствий. Имя никуда не уходит с телефона.</string>
+    <string name="ob_name_hint">Имя</string>
+    <string name="ob_gender_title">Как к тебе обращаться?</string>
+    <string name="gender_male">Он</string>
+    <string name="gender_female">Она</string>
+    <string name="ob_core_title">Твоё ядро</string>
+    <string name="ob_core_text">Выбери от трёх до пяти ценностей, которые должны светить сквозь любую твою роль.</string>
+    <string name="ob_core_custom">Своя ценность</string>
+    <string name="ob_core_count">%1$d из 5</string>
+    <string name="ob_spheres_title">Твои сферы</string>
+    <string name="ob_spheres_text">Где ты бываешь разным человеком? Отметь те части жизни, с которыми хочешь работать.</string>
+    <string name="ob_spheres_note">Свои сферы можно добавить потом на вкладке «Роли»: собака, группа, сад.</string>
+    <string name="ob_finish_title">Призма готова</string>
+    <string name="ob_finish_text">Теперь ей нужны цвета. Начни с нескольких хороших ролей из библиотеки или напиши свои.</string>
+    <string name="ob_finish_library">Выбрать роли из библиотеки</string>
+    <string name="ob_finish_look">Сначала осмотреться</string>
+
+    <string-array name="core_suggestions">
+        <item>Честность</item>
+        <item>Тепло</item>
+        <item>Спокойствие</item>
+        <item>Смелость</item>
+        <item>Доброта</item>
+        <item>Уважение</item>
+        <item>Свобода</item>
+        <item>Рост</item>
+        <item>Любопытство</item>
+        <item>Верность</item>
+        <item>Справедливость</item>
+        <item>Ответственность</item>
+        <item>Присутствие</item>
+        <item>Благодарность</item>
+        <item>Юмор</item>
+        <item>Щедрость</item>
+        <item>Терпение</item>
+        <item>Цельность</item>
+        <item>Творчество</item>
+        <item>Простота</item>
+        <item>Здоровье</item>
+        <item>Семья</item>
+        <item>Мастерство</item>
+        <item>Открытость</item>
+    </string-array>
+
+    <!-- Core -->
+    <string name="core_title">Ядро</string>
+    <string name="core_lead">Ядро — это белый свет. В какой бы роли ты ни {был|была}, дома или на работе, {спокойный|спокойная} или в ярости, эти ценности не меняются.</string>
+    <string name="core_hint">Оставь только то, за что держишься даже в самый плохой день. От одной до семи ценностей.</string>
+    <string name="core_add_hint">Добавить ценность</string>
+    <string name="core_ideas">Идеи</string>
+    <string name="core_mine">Мои ценности</string>
+    <string name="core_up">Выше</string>
+    <string name="core_down">Ниже</string>
+    <string name="core_empty">Добавь хотя бы одну ценность.</string>
+
+    <!-- Settings -->
+    <string name="set_name">Имя</string>
+    <string name="set_gender">Обращаться ко мне</string>
+    <string name="set_language">Язык</string>
+    <string name="lang_system">Как на телефоне</string>
+    <string name="set_theme">Тема</string>
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Бумага</string>
+    <string name="theme_dark">Графит</string>
+    <string name="set_reminders">Напоминания</string>
+    <string name="set_morning">Утренняя примерка</string>
+    <string name="set_morning_text">Выбрать роль дня в %1$s</string>
+    <string name="set_evening">Вечерний разбор</string>
+    <string name="set_evening_text">Оглянуться на сцены дня в %1$s</string>
+    <string name="perm_title">Уведомления выключены</string>
+    <string name="perm_text">Нажми, чтобы разрешить, иначе напоминания и пороги до тебя не дойдут.</string>
+    <string name="autostart_title">Напоминания не приходят?</string>
+    <string name="autostart_text">Некоторые телефоны закрывают приложения в фоне. Разреши Prism автозапуск и сними ограничения батареи в системных настройках.</string>
+    <string name="set_thresholds">Пороги</string>
+    <string name="set_threshold_len">Длина порога</string>
+    <string name="set_seconds">%1$d с</string>
+    <string name="set_schedule">Пороги по расписанию</string>
+    <string name="set_schedule_text">Напоминать входить в роль в нужное время</string>
+    <string name="set_feel">Ощущения</string>
+    <string name="set_haptics">Вибрация</string>
+    <string name="set_haptics_text">Лёгкие касания во время порога и дыхания</string>
+    <string name="backup">Резервная копия</string>
+    <string name="backup_text">Всё хранится только на этом телефоне. Сохрани копию в файл или восстанови из него.</string>
+    <string name="backup_export">Сохранить в файл</string>
+    <string name="backup_import">Восстановить</string>
+    <string name="backup_import_title">Восстановить из файла?</string>
+    <string name="backup_import_text">Всё, что сейчас есть в приложении, заменится содержимым файла.</string>
+    <string name="backup_done">Сохранено</string>
+    <string name="backup_failed">С файлом что-то не так</string>
+    <string name="backup_restored">Восстановлено</string>
+    <string name="about">О приложении</string>
+    <string name="about_text">Prism — о множестве ролей, которые играет один человек, и об одном свете за ними. Без аккаунтов и рекламы, ничего не уходит с телефона.</string>
+    <string name="about_version">Версия %1$s</string>
+</resources>

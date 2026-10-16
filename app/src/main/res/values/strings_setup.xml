@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Onboarding -->
+    <string name="ob_welcome_title">One light, many colours</string>
+    <string name="ob_welcome_text">Your values are the light. Your roles are the colours it splits into: at home, at work, with friends, when you\'re angry.</string>
+    <string name="ob_welcome_more">Prism helps you write who you want to be in each of them, and be that person more often.</string>
+    <string name="ob_start">Begin</string>
+    <string name="ob_name_title">What should I call you?</string>
+    <string name="ob_name_text">Only for greetings. It never leaves your phone.</string>
+    <string name="ob_name_hint">Your name</string>
+    <string name="ob_gender_title">How should I address you?</string>
+    <string name="gender_male">He</string>
+    <string name="gender_female">She</string>
+    <string name="ob_core_title">Your core</string>
+    <string name="ob_core_text">Pick three to five values that should shine through every role you play.</string>
+    <string name="ob_core_custom">Your own value</string>
+    <string name="ob_core_count">%1$d of 5</string>
+    <string name="ob_spheres_title">Your spheres</string>
+    <string name="ob_spheres_text">Where are you a different person? Pick the parts of life you want to work with.</string>
+    <string name="ob_spheres_note">You can add your own spheres later on the Roles tab: a dog, a band, a garden.</string>
+    <string name="ob_finish_title">The prism is ready</string>
+    <string name="ob_finish_text">Now it needs colours. Start with a few good roles from the library, or write your own.</string>
+    <string name="ob_finish_library">Pick roles from the library</string>
+    <string name="ob_finish_look">Look around first</string>
+
+    <string-array name="core_suggestions">
+        <item>Honesty</item>
+        <item>Warmth</item>
+        <item>Calm</item>
+        <item>Courage</item>
+        <item>Kindness</item>
+        <item>Respect</item>
+        <item>Freedom</item>
+        <item>Growth</item>
+        <item>Curiosity</item>
+        <item>Loyalty</item>
+        <item>Justice</item>
+        <item>Responsibility</item>
+        <item>Presence</item>
+        <item>Gratitude</item>
+        <item>Humour</item>
+        <item>Generosity</item>
+        <item>Patience</item>
+        <item>Integrity</item>
+        <item>Creativity</item>
+        <item>Simplicity</item>
+        <item>Health</item>
+        <item>Family</item>
+        <item>Mastery</item>
+        <item>Openness</item>
+    </string-array>
+
+    <!-- Core -->
+    <string name="core_title">Core</string>
+    <string name="core_lead">The core is the white light. Whatever role you\'re in, at home or at work, calm or furious, these values stay the same.</string>
+    <string name="core_hint">Keep only what you\'d stand by on your worst day. One to seven values.</string>
+    <string name="core_add_hint">Add a value</string>
+    <string name="core_ideas">Ideas</string>
+    <string name="core_mine">My values</string>
+    <string name="core_up">Move up</string>
+    <string name="core_down">Move down</string>
+    <string name="core_empty">Add at least one value.</string>
+
+    <!-- Settings -->
+    <string name="set_name">Name</string>
+    <string name="set_gender">Address me as</string>
+    <string name="set_language">Language</string>
+    <string name="lang_system">As on the phone</string>
+    <string name="set_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Paper</string>
+    <string name="theme_dark">Graphite</string>
+    <string name="set_reminders">Reminders</string>
+    <string name="set_morning">Morning fitting</string>
+    <string name="set_morning_text">Choose today\'s role at %1$s</string>
+    <string name="set_evening">Evening review</string>
+    <string name="set_evening_text">Look back at the day\'s scenes at %1$s</string>
+    <string name="perm_title">Notifications are off</string>
+    <string name="perm_text">Tap to allow them, or reminders and thresholds won\'t reach you.</string>
+    <string name="autostart_title">Reminders don\'t come?</string>
+    <string name="autostart_text">Some phones close apps in the background. Allow Prism to autostart and turn off battery restrictions in its system settings.</string>
+    <string name="set_thresholds">Thresholds</string>
+    <string name="set_threshold_len">Length of a threshold</string>
+    <string name="set_seconds">%1$d s</string>
+    <string name="set_schedule">Scheduled thresholds</string>
+    <string name="set_schedule_text">Remind me to step into a role at set times</string>
+    <string name="set_feel">Feel</string>
+    <string name="set_haptics">Vibration</string>
+    <string name="set_haptics_text">Light taps during thresholds and breathing</string>
+    <string name="backup">Backup</string>
+    <string name="backup_text">Everything lives only on this phone. Save a copy to a file, or restore from one.</string>
+    <string name="backup_export">Save to file</string>
+    <string name="backup_import">Restore</string>
+    <string name="backup_import_title">Restore from the file?</string>
+    <string name="backup_import_text">Everything in the app now will be replaced with what\'s in the file.</string>
+    <string name="backup_done">Saved</string>
+    <string name="backup_failed">Something went wrong with the file</string>
+    <string name="backup_restored">Restored</string>
+    <string name="about">About</string>
+    <string name="about_text">Prism is about the many roles one person plays, and the one light behind them. No accounts, no ads, nothing leaves your phone.</string>
+    <string name="about_version">Version %1$s</string>
+</resources>
