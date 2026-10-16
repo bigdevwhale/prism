@@ -471,6 +471,7 @@ fun Pill(text: String, color: Color, modifier: Modifier = Modifier, icon: ImageV
 
 /** A friendly blank state: a dim prism, a line of text and an action. */
 @Composable
+@Suppress("ModifierParameter")
 fun EmptyState(text: String, action: String? = null, onAction: (() -> Unit)? = null, modifier: Modifier = Modifier) {
     Column(modifier.fillMaxWidth().padding(vertical = 18.dp), horizontalAlignment = Alignment.CenterHorizontally) {
         PrismGlyph(Modifier.width(120.dp).height(64.dp), dim = true)

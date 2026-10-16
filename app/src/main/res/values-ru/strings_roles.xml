@@ -40,7 +40,7 @@
     <string name="rs_sphere_delete_text">Вместе с ней удалятся её роли и все их сцены. Тени останутся.</string>
 
     <string name="rs_role_cut_next">ещё %2$d до уровня «%1$s»</string>
-    <string name="rs_role_cut_hint">Грань становится ярче от сцен с оценкой от 60%, от порогов, через которые ты входишь в роль, и от дней акта.</string>
+    <string name="rs_role_cut_hint">Грань становится ярче от сцен с оценкой от 60 и выше, от порогов, через которые ты входишь в роль, и от дней акта.</string>
     <string name="rs_role_after_scene">После сцены</string>
     <string name="rs_role_qualities">Качества</string>
     <string name="rs_role_voice">Как я говорю</string>

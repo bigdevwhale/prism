@@ -38,7 +38,7 @@
     <string name="rs_sphere_delete_text">Its roles will be deleted too, along with their scenes. Shadows stay.</string>
 
     <string name="rs_role_cut_next">%2$d to %1$s</string>
-    <string name="rs_role_cut_hint">A facet gets polished by scenes rated 60% or higher, thresholds crossed into the role, and the days of an act.</string>
+    <string name="rs_role_cut_hint">A facet gets polished by scenes rated 60 or higher, thresholds crossed into the role, and the days of an act.</string>
     <string name="rs_role_after_scene">After a scene</string>
     <string name="rs_role_qualities">Qualities</string>
     <string name="rs_role_voice">How I speak</string>

@@ -15,7 +15,6 @@
     <string name="edit">Изменить</string>
     <string name="done">Готово</string>
     <string name="next">Дальше</string>
-    <string name="skip">Пропустить</string>
     <string name="add">Добавить</string>
     <string name="close">Закрыть</string>
     <string name="share">Поделиться</string>
@@ -82,12 +81,6 @@
     <string name="widget_desc">Роль, которая ведёт сегодня, и её девиз</string>
     <string name="widget_none">Нажми, чтобы выбрать роль дня</string>
 
-    <plurals name="scenes">
-        <item quantity="one">%d сцена</item>
-        <item quantity="few">%d сцены</item>
-        <item quantity="many">%d сцен</item>
-        <item quantity="other">%d сцены</item>
-    </plurals>
     <plurals name="days">
         <item quantity="one">%d день</item>
         <item quantity="few">%d дня</item>

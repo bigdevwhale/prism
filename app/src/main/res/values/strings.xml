@@ -15,7 +15,6 @@
     <string name="edit">Edit</string>
     <string name="done">Done</string>
     <string name="next">Next</string>
-    <string name="skip">Skip</string>
     <string name="add">Add</string>
     <string name="close">Close</string>
     <string name="share">Share</string>
@@ -82,10 +81,6 @@
     <string name="widget_desc">The role that leads today and its motto</string>
     <string name="widget_none">Tap to choose today\'s role</string>
 
-    <plurals name="scenes">
-        <item quantity="one">%d scene</item>
-        <item quantity="other">%d scenes</item>
-    </plurals>
     <plurals name="days">
         <item quantity="one">%d day</item>
         <item quantity="other">%d days</item>
